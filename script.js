@@ -47,7 +47,7 @@ function playRound(computerChoice, humanChoice) {
     humanScore++;
     console.log(`You win! ${humanChoice} beats ${computerChoice}`)    
   }else{
-    console.log(`Its a tie!`)    
+    console.log(`It's a tie!`)    
   }
 }
 

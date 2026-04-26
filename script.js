@@ -51,3 +51,7 @@ function playRound(computerChoice, humanChoice) {
   }
 }
 
+// Initialize varaibles to store computer and human choices
+const computerSelection = getComputerChoice();
+const humanSelection = getHumanChoice();
+

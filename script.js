@@ -15,7 +15,7 @@ let computerChoice;
 
 // Function to propmt user for their choice and return it
 function getHumanChoice() {
-  let humanChoice = prompt('Enter your choice: ');
+  let humanChoice = prompt('Enter your choice: ').toLowerCase();
   return humanChoice;
 }
 

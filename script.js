@@ -1,5 +1,4 @@
-// Get computer choice
-//functio to return computer choice
+// function to return computer choice
 function getComputerChoice() {
 // Generate random number and assign it to a choiceNumber
 let choiceNumber = Math.random();

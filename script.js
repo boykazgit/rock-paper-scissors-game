@@ -5,11 +5,18 @@ function getComputerChoice() {
 let choiceNumber = Math.random();
 let computerChoice;
 // Return computerChoice based on choiceNumber
-if (choiceNumber < (1/3)) {
-  return computerChoice = 'rock';
-}else if (choiceNumber > 1/3 && choiceNumber < 2/3){
-  return computerChoice = 'paper';
-}else {
-  return computerChoice = 'scissors';
+  if (choiceNumber < (1/3)) {
+    return computerChoice = 'rock';
+  }else if (choiceNumber > 1/3 && choiceNumber < 2/3){
+    return computerChoice = 'paper';
+  }else {
+    return computerChoice = 'scissors';
+  }
 }
+
+// Function to propmt user for their choice and return it
+function getHumanChoice() {
+  let humanChoice = prompt('Enter your choice: ');
+  return humanChoice;
 }
+

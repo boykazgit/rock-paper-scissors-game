@@ -51,7 +51,21 @@ function playRound(computerChoice, humanChoice) {
   }
 }
 
-// Initialize varaibles to store computer and human choices
-const computerSelection = getComputerChoice();
-const humanSelection = getHumanChoice();
-
+function playGame(){
+  // loop for 5 times running getComputerChoice and getHumanChoice each time for new selections
+    for(let i = 0; i < 5; i++){
+    // Initialize varaibles to store computer and human choices
+    const computerSelection = getComputerChoice();
+    const humanSelection = getHumanChoice();
+      playRound(computerSelection, humanSelection);
+      console.log(`Your score: ${humanScore}.\nComputer's score: ${computerScore}`)
+    }
+  // condition to determine the winner at the end of the game
+  if (computerScore > humanScore){
+    console.log(`You scored ${humanScore} and computer scored ${computerScore}.\n You Lose!`)
+  }else if(humanScore > computerScore){
+    console.log(`You scored ${humanScore} and computer scored ${computerScore}.\nYou Win!`)  
+  }else{
+    console.log(`You scored ${humanScore} and computer scored ${computerScore}.\nIt's a tie!`)   
+  }
+}

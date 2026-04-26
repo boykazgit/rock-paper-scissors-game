@@ -20,8 +20,8 @@ function getHumanChoice() {
 }
 
 // Create varaibles to keep human and computer scores
-let humanScore;
-let computerScore;
+let humanScore = 0;
+let computerScore = 0;
 
 
 

@@ -23,5 +23,29 @@ function getHumanChoice() {
 let humanScore = 0;
 let computerScore = 0;
 
-
+// Create function to implement a round system
+// takes computerChoice and humanChoice as arguements
+// increments each users score according to the winner
+// announces the user of a round
+function playRound(computerChoice, humanChoice) {
+  // conditional for determing who wins or loses based on choices
+  // rock beats scissors
+  // paper beats rock
+  // scissors beats paper
+  // tie if the same choice
+  console.log(`${computerChoice}.`)
+  if (computerChoice === 'rock' && humanChoice === 'scissors'){
+    computerScore++;
+    console.log(`You lose! ${computerChoice} beats ${humanChoice}`)
+  }else if (computerChoice === 'paper' && humanChoice === 'rock'){
+    computerScore++;
+    console.log(`You lose! ${computerChoice} beats ${humanChoice}`)
+  }else if (humanChoice === 'rock' && computerChoice === 'scissors'){
+      humanScore++;
+    console.log(`You win! ${humanChoice} beats ${computerChoice}`)
+  }else if(humanChoice === 'paper' && computerChoice === 'rock'){
+    humanScore++;
+    console.log(`You win! ${humanChoice} beats ${computerChoice}`)    
+  }
+}
 

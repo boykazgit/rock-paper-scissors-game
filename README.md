@@ -7,7 +7,7 @@ This project is the first I did implementing the saying "code explains your comm
 Thinking about code that way makes it a lot easier to write code and to get all your ideas down. 
 It also allows you to determine where errors may come from.
 
-The projects was a good starting place to practice all I have learned from the Foundations course.
+The project was a good starting place to practice all I have learned from the Foundations course.
 
 Concepts Implemented
 - Functions

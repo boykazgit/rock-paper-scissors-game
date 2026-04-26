@@ -69,3 +69,5 @@ function playGame(){
     console.log(`You scored ${humanScore} and computer scored ${computerScore}.\nIt's a tie!`)   
   }
 }
+
+playGame()

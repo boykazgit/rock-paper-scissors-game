@@ -19,3 +19,9 @@ function getHumanChoice() {
   return humanChoice;
 }
 
+// Create varaibles to keep human and computer scores
+let humanScore;
+let computerScore;
+
+
+

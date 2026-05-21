@@ -17,5 +17,5 @@ Concepts Implemented
 Later after progressing through the course and studying the DOM and events I added UI to the game as instructed by the course.
 
 Concepts Implemented
--DOM manipulation
--Event handling
+- DOM manipulation
+- Event handling

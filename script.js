@@ -56,8 +56,7 @@ function playRound(event) {
   
     let restartButton = document.createElement('button');
     restartButton.textContent = 'Restart';
-    restartButton.style.display = 'inline-block';
-    restartButton.style.marginTop = '10px';
+    restartButton.classList.add('restart-button');
     restartButton.addEventListener('click', () => {
       computerScore = 0;
       humanScore = 0;

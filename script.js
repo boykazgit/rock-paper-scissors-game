@@ -1,4 +1,3 @@
-const body = document.querySelector('body')
 function getComputerChoice() {
 let choiceNumber = Math.random();
 let computerChoice;

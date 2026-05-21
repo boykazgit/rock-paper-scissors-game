@@ -1,0 +1,33 @@
+    body {
+      font-family: Montserrat, Arial ;
+      background-color: rgb(83, 83, 83);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    button {
+      width: 100px;
+      height: 50px;
+      border: none;
+      border-radius: 10px;
+      font-size: 20px;
+      font-weight: 500;
+      background: gold;
+    }
+    button:hover {
+      border: solid black 2px;
+    }
+    button:active {
+      background-color: rgb(180, 154, 3);
+    }
+
+    p {
+      margin: 0px;
+    }
+
+    div {
+      text-align: center;
+      font-size: 24px;
+      margin-top: 10px;
+    }

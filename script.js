@@ -13,7 +13,7 @@ let computerChoice;
 let humanScore = 0;
 let computerScore = 0;
 
-function playRound(event) {
+function playRound() {
   let computerChoice = getComputerChoice();
 
   let humanChoice = '';
